@@ -39,9 +39,3 @@ int main()
 	cout<<"The sum is : "<<z<<endl;
 	return 0 ;
  } 
- 
- 
- 
- 
- 
- 

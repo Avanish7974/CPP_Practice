@@ -4,7 +4,9 @@
 using namespace std;
 int main(){
 
-    int s1,s2,s3,s4,s5;
+    int s1,s2,s3,s4,s5,total;
+    cout<<"Enter Total Marks :";
+    cin>>total;
    
     
 
@@ -19,10 +21,10 @@ int main(){
     cout<<"Enter 5 Subject marks  : ";
     cin>>s5;
 
-    int total = s1+s2+s3+s4+s5;
+    int obtain_marks = s1+s2+s3+s4+s5;
 
-    cout<<"total sum is "<<total<<endl;
-    cout<<"Total percentage is "<<((float)total/500)*100<<"%";
+    cout<<"Obtained Marks is "<<obtain_marks<<endl;
+    cout<<"Total percentage is "<<((float)obtain_marks/total)*100<<"%";
 
 
     return 0;
